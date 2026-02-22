@@ -233,8 +233,8 @@ const skills = [
   { name: 'Node.js', pct: 91 },
   { name: 'TypeScript', pct: 88 },
   { name: 'Python', pct: 83 },
-  { name: 'MongoDB', pct: 85 },
-  { name: 'AWS', pct: 78 },
+  { name: 'Java', pct: 85 },
+  { name: 'Unreal Engine 5', pct: 85 },
   { name: 'Three.js', pct: 72 },
   { name: 'Docker', pct: 80 },
 ];
@@ -279,9 +279,8 @@ const SkillsSection = () => (
    EXPERIENCE
    ========================================================= */
 const experiences = [
-  { role: 'Senior Developer', period: '2024 — Present', detail: 'Leading architecture migration and AI integration across all product lines.' },
-  { role: 'Full Stack Engineer', period: '2022 — 2024', detail: 'Built distributed systems at scale; reduced deployment cycle by 50%.' },
-  { role: 'Junior Developer', period: '2020 — 2022', detail: 'Delivered 10+ production applications using React and Node.js.' },
+  { role: 'Intern, CODEBIND TECHNOLOGIES', period: '202', detail: 'Gained hands-on experience in full-stack web development by contributing to real-time projects, building responsive user interfaces with HTML, CSS, and JavaScript, implementing server-side logic and database integration, managing deployments, and collaborating within professional development workflows.' },
+  { role: 'Monolith Research and Training Labs Pvt. Ltd.', period: 'June 2025 - September 2025', detail: 'Gained hands-on experience in game development during an internship by contributing to real-time projects, implementing gameplay mechanics and interactive features in Unreal Engine 5 using Blueprints, and collaborating with team members to understand development pipelines, problem-solving strategies, and production workflows.' },
 ];
 
 const Experience = () => (
