@@ -160,8 +160,7 @@ const About = () => (
             <span className="text-outline">scales hard.</span>
           </h2>
           <p className="ab-body">
-            Based in India. Obsessed with clean architecture, AI integration, and
-            interfaces that feel inevitable. From zero to production — I own the full stack.
+            I’m a motivated Computer Science Engineering student passionate about building innovative, real-world technology solutions. With a strong foundation in problem-solving and hands-on development, I enjoy exploring emerging technologies and turning ideas into meaningful digital experiences. Adaptable, collaborative, and driven by continuous improvement, I thrive in team environments and aim to create solutions that make a measurable impact.
           </p>
         </div>
 
@@ -235,8 +234,6 @@ const skills = [
   { name: 'Python', pct: 83 },
   { name: 'Java', pct: 85 },
   { name: 'Unreal Engine 5', pct: 85 },
-  { name: 'Three.js', pct: 72 },
-  { name: 'Docker', pct: 80 },
 ];
 
 const SkillsSection = () => (
@@ -279,7 +276,7 @@ const SkillsSection = () => (
    EXPERIENCE
    ========================================================= */
 const experiences = [
-  { role: 'Intern, CODEBIND TECHNOLOGIES', period: '202', detail: 'Gained hands-on experience in full-stack web development by contributing to real-time projects, building responsive user interfaces with HTML, CSS, and JavaScript, implementing server-side logic and database integration, managing deployments, and collaborating within professional development workflows.' },
+  { role: 'Intern, CODEBIND TECHNOLOGIES', period: '2023', detail: 'Gained hands-on experience in full-stack web development by contributing to real-time projects, building responsive user interfaces with HTML, CSS, and JavaScript, implementing server-side logic and database integration, managing deployments, and collaborating within professional development workflows.' },
   { role: 'Monolith Research and Training Labs Pvt. Ltd.', period: 'June 2025 - September 2025', detail: 'Gained hands-on experience in game development during an internship by contributing to real-time projects, implementing gameplay mechanics and interactive features in Unreal Engine 5 using Blueprints, and collaborating with team members to understand development pipelines, problem-solving strategies, and production workflows.' },
 ];
 
