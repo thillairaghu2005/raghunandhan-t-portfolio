@@ -58,7 +58,7 @@ const Hero = () => {
           <h1 className="hero-hl">
             <span className="hl-row">
               <span className="hl-outline">BUILD</span>
-              <span className="hl-fill">&nbsp;ING</span>
+              <span className="hl-fill">ING</span>
             </span>
             <span className="hl-row hl-row--indent">
               <span className="hl-fill">DIGI</span>
@@ -115,7 +115,7 @@ const Hero = () => {
 
           <div className="hb-card hb-card--wide">
             <span className="hb-tag-line">
-              Full Stack · AI · WebGL · Cloud
+              Full Stack · Java · Python · AI · Game Development
             </span>
           </div>
         </div>
