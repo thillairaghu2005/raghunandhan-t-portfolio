@@ -25,7 +25,7 @@ const Navbar = () => {
         <a href="#experience">XP</a>
         <a href="#contact">Contact</a>
       </div>
-      <a href="mailto:hello@raghu.dev" className="nav-cta">
+      <a href="mailto:raghunandhanthillai0@gmail.com" className="nav-cta">
         Hire Me
       </a>
     </nav>
@@ -91,7 +91,7 @@ const Hero = () => {
           <div className="hb-card hb-card--img">
             <img
               src="/raghu.png"
-              alt="Raghunandhan"
+              alt="Raghunandhan T"
               style={{
                 transform: isMobile
                   ? 'scale(1.1) translateX(0px) translateY(30px)'
@@ -100,7 +100,7 @@ const Hero = () => {
                 transition: 'transform 0.4s ease'
               }}
             />
-            <div className="hb-img-tag">RAGHUNANDHAN — SWE</div>
+            <div className="hb-img-tag">RAGHUNANDHAN T — SWE</div>
           </div>
 
           <div className="hb-card hb-card--stat">
@@ -390,7 +390,7 @@ const Achievements = () => (
 
         <div className="ach-card ach-card--cta">
           <span className="ach-cta-text">Want to see full credentials?</span>
-          <a href="mailto:hello@raghu.dev" className="ach-link">
+          <a href="mailto:raghunandhanthillai0@gmail.com" className="ach-link">
             Get in Touch <span className="arr">&#x2192;</span>
           </a>
         </div>
@@ -417,8 +417,8 @@ const Contact = () => (
             <span className="contact-outline">Remarkable.</span>
           </h2>
 
-          <a href="mailto:hello@raghu.dev" className="contact-email-btn">
-            hello@raghu.dev <span className="arr">&#x2197;</span>
+          <a href="mailto:raghunandhanthillai0@gmail.com" className="contact-email-btn">
+            raghunandhanthillai0@gmail.com <span className="arr">&#x2197;</span>
           </a>
         </div>
 
@@ -443,9 +443,8 @@ const Contact = () => (
           </div>
 
           <div className="contact-links">
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="cl-link">GitHub</a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="cl-link">LinkedIn</a>
-            <a href="https://twitter.com" target="_blank" rel="noreferrer" className="cl-link">Twitter</a>
+            <a href="https://github.com/thillairaghu2005/" target="_blank" rel="noreferrer" className="cl-link">GitHub</a>
+            <a href="https://linkedin.com/in/raghunandhan-t-aaa678356/" target="_blank" rel="noreferrer" className="cl-link">LinkedIn</a>
           </div>
         </div>
       </div>
@@ -459,12 +458,12 @@ const Contact = () => (
 const Footer = () => (
   <footer className="footer">
     <div className="footer-inner">
-      <span className="footer-logo">RAGHUNANDHAN<span className="logo-dot">.</span></span>
+      <span className="footer-logo">RAGHUNANDHAN T<span className="logo-dot">.</span></span>
       <span className="footer-copy">Designed and engineered with intent. 2026.</span>
       <div className="footer-links">
-        <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
-        <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
-        <a href="mailto:hello@raghu.dev">Email</a>
+        <a href="https://github.com/thillairaghu2005/" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://linkedin.com/in/raghunandhan-t-aaa678356/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="mailto:raghunandhanthillai0@gmail.com">Email</a>
       </div>
     </div>
   </footer>
