@@ -76,7 +76,7 @@ const Hero = () => {
               scalable systems with visual precision.
             </p>
             <div className="hero-actions">
-              <a href="#projects" className="btn-primary">
+              <a href="#experience" className="btn-primary">
                 View Experience <span className="arr">&#x2192;</span>
               </a>
               <a href="#contact" className="btn-outline">
