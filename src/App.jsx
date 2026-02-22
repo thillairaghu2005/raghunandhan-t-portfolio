@@ -165,17 +165,6 @@ const About = () => (
           </p>
         </div>
 
-        {/* Stat cards */}
-        <div className="ab-card ab-card--stat">
-          <span className="ab-big-num">50<span className="ab-plus">+</span></span>
-          <span className="ab-stat-name">Clients Served</span>
-        </div>
-
-        <div className="ab-card ab-card--stat ab-card--dark">
-          <span className="ab-big-num">99<span className="ab-plus">%</span></span>
-          <span className="ab-stat-name">Uptime SLA</span>
-        </div>
-
         {/* Skill tags cloud */}
         <div className="ab-card ab-card--tags">
           <span className="ab-tags-label">Core Beliefs</span>
@@ -202,39 +191,11 @@ const About = () => (
    ========================================================= */
 const projects = [
   {
-    index: '01',
-    name: 'AI CRM System',
-    type: 'Full Stack',
-    year: '2025',
-    desc: 'Enterprise CRM with AI-driven lead scoring, deal forecasting, and next-best-action recommendations.',
+    name: 'Panimalar Engineering College – CSE',
+    type: 'Bachelor of Computer Science Engineering',
+    year: '2023 - 2027',
+    desc: 'GPA : 7.5',
     size: 'large',
-    accent: '#ff4400',
-  },
-  {
-    index: '02',
-    name: 'Fintech Dashboard',
-    type: 'Frontend',
-    year: '2024',
-    desc: 'Real-time financial analytics platform for institutional traders with sub-100ms updates.',
-    size: 'small',
-    accent: '#ffffff',
-  },
-  {
-    index: '03',
-    name: 'Real-time Chat',
-    type: 'Backend',
-    year: '2024',
-    desc: 'WebSocket engine handling 10k concurrent connections with message queue and offline sync.',
-    size: 'small',
-    accent: '#ffffff',
-  },
-  {
-    index: '04',
-    name: '3D Portfolio',
-    type: 'WebGL',
-    year: '2023',
-    desc: 'Immersive 3D scene built with Three.js + custom GLSL shaders and physics simulation.',
-    size: 'wide',
     accent: '#ff4400',
   },
 ];
@@ -242,7 +203,7 @@ const projects = [
 const ProjectsGrid = () => (
   <section id="projects" className="section section--dark">
     <div className="container">
-      <div className="sec-label light">02 — SELECTED WORK</div>
+      <div className="sec-label light">02 — EDUCATION</div>
 
       <div className="projects-bento">
         {projects.map((p, i) => (
