@@ -191,10 +191,10 @@ const About = () => (
    ========================================================= */
 const projects = [
   {
-    name: 'Panimalar Engineering College – CSE',
-    type: 'Bachelor of Computer Science Engineering',
+    name: 'Panimalar Engineering College',
+    type: 'GPA : 7.5',
     year: '2023 - 2027',
-    desc: 'GPA : 7.5',
+    desc: 'Bachelor of Computer Science Engineering',
     size: 'large',
     accent: '#ff4400',
   },
