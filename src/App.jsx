@@ -77,7 +77,7 @@ const Hero = () => {
             </p>
             <div className="hero-actions">
               <a href="#projects" className="btn-primary">
-                View Work <span className="arr">&#x2192;</span>
+                View Experience <span className="arr">&#x2192;</span>
               </a>
               <a href="#contact" className="btn-outline">
                 Let's Talk
@@ -101,16 +101,6 @@ const Hero = () => {
               }}
             />
             <div className="hb-img-tag">RAGHUNANDHAN T — SWE</div>
-          </div>
-
-          <div className="hb-card hb-card--stat">
-            <span className="hb-stat-num">6+</span>
-            <span className="hb-stat-label">Years Experience</span>
-          </div>
-
-          <div className="hb-card hb-card--stat hb-card--orange">
-            <span className="hb-stat-num">40+</span>
-            <span className="hb-stat-label">Projects Shipped</span>
           </div>
 
           <div className="hb-card hb-card--wide">
