@@ -319,20 +319,20 @@ const Achievements = () => (
       <div className="ach-bento">
         <div className="ach-card ach-card--feat">
           <span className="ach-roman">I</span>
-          <h3 className="ach-title">30hr Hackathon Winner</h3>
-          <p className="ach-desc">Led a team of 4 to build a scalable AI-powered solution under extreme time pressure.</p>
+          <h3 className="ach-title">Web Development Itern Certificate</h3>
+          <p className="ach-desc"></p>
         </div>
 
         <div className="ach-card ach-card--dark">
           <span className="ach-roman">II</span>
-          <h3 className="ach-title">Performance Record</h3>
-          <p className="ach-desc">Improved production system efficiency by 40% through rearchitecting data pipelines.</p>
+          <h3 className="ach-title">Unreal Engine 5 Game Development Certification</h3>
+          <p className="ach-desc"></p>
         </div>
 
         <div className="ach-card ach-card--dark">
           <span className="ach-roman">III</span>
-          <h3 className="ach-title">Tech Speaker</h3>
-          <p className="ach-desc">Delivered sessions on scalable frontend systems at industry-wide developer events.</p>
+          <h3 className="ach-title">Microsoft AI Azure</h3>
+          <p className="ach-desc"></p>
         </div>
 
         <div className="ach-card ach-card--cta">
