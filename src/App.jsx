@@ -335,6 +335,18 @@ const Achievements = () => (
           <p className="ach-desc"></p>
         </div>
 
+        <div className="ach-card ach-card--dark">
+          <span className="ach-roman">IV</span>
+          <h3 className="ach-title">Generative AI</h3>
+          <p className="ach-desc"></p>
+        </div>
+
+        <div className="ach-card ach-card--dark">
+          <span className="ach-roman">V</span>
+          <h3 className="ach-title">THREX Hackathon - SRM KTR</h3>
+          <p className="ach-desc">Ranked 24th out of 115 participating teams. Gained valuable exposure pitching to investors and understanding product-market strategy.</p>
+        </div>
+
         <div className="ach-card ach-card--cta">
           <span className="ach-cta-text">Want to see full credentials?</span>
           <a href="mailto:raghunandhanthillai0@gmail.com" className="ach-link">
