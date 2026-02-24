@@ -20,7 +20,7 @@ const Navbar = () => {
       </div>
       <div className="nav-links">
         <a href="#about">About</a>
-        <a href="#projects">Work</a>
+        <a href="#work">Work</a>
         <a href="#skills">Stack</a>
         <a href="#experience">XP</a>
         <a href="#contact">Contact</a>
@@ -200,7 +200,7 @@ const projects = [
 ];
 
 const ProjectsGrid = () => (
-  <section id="projects" className="section section--dark">
+  <section id="education" className="section section--dark">
     <div className="container">
       <div className="sec-label light">02 — EDUCATION</div>
 
@@ -225,6 +225,49 @@ const ProjectsGrid = () => (
 );
 
 /* =========================================================
+   WORK
+   ========================================================= */
+const workItems = [
+  {
+    title: 'Event Management',
+    period: '2024',
+    detail: 'This project centers on developing a responsive and interactive website utilizing modern web technologies such as HTML, CSS, JavaScript. It encompasses both front-end development, UI design, and database integration to manage dynamic content effectively.',
+  },
+  {
+    title: 'Game Development - Unreal Engine',
+    period: '2025',
+    detail: 'Developed a 3D game using Unreal Engine 5, focusing on gameplay mechanics, level design, and physics-based interactions. Implemented core game logic using Blueprint scripting, including player controls, collision handling, scoring systems, and dynamic obstacles. Designed and optimized multiple levels with efficient asset integration.',
+  },
+];
+
+const Work = () => (
+  <section id="work" className="section section--dark">
+    <div className="container">
+      <div className="sec-label light">03 — Projects</div>
+
+      <div className="exp-layout">
+        <h2 className="exp-title">
+          <span className="text-orange">Projects.</span>
+        </h2>
+
+        <div className="exp-list">
+          {workItems.map((w, i) => (
+            <div key={i} className="exp-item">
+              <span className="exp-num">0{i + 1}</span>
+              <div className="exp-body">
+                <h3 className="exp-role">{w.title}</h3>
+                <span className="exp-period">{w.period}</span>
+                <p className="exp-detail">{w.detail}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+);
+
+/* =========================================================
    SKILLS BENTO
    ========================================================= */
 const skills = [
@@ -239,7 +282,7 @@ const skills = [
 const SkillsSection = () => (
   <section id="skills" className="section section--cream">
     <div className="container">
-      <div className="sec-label">03 — TECHNICAL STACK</div>
+      <div className="sec-label">04 — TECHNICAL STACK</div>
 
       <div className="skills-bento">
         {/* Intro card takes full left column */}
@@ -283,7 +326,7 @@ const experiences = [
 const Experience = () => (
   <section id="experience" className="section section--dark">
     <div className="container">
-      <div className="sec-label light">04 — EXPERIENCE</div>
+      <div className="sec-label light">05 — EXPERIENCE</div>
 
       <div className="exp-layout">
         <h2 className="exp-title">
@@ -314,7 +357,7 @@ const Experience = () => (
 const Achievements = () => (
   <section id="achievements" className="section section--cream">
     <div className="container">
-      <div className="sec-label">05 — RECOGNITION</div>
+      <div className="sec-label">06 — RECOGNITION</div>
 
       <div className="ach-bento">
         <div className="ach-card ach-card--feat">
@@ -366,7 +409,7 @@ const Contact = () => (
     <div className="contact-noise" />
 
     <div className="container">
-      <div className="sec-label light">06 — CONTACT</div>
+      <div className="sec-label light">07 — CONTACT</div>
 
       <div className="contact-layout">
         <div className="contact-left">
@@ -439,6 +482,7 @@ function App() {
       <Ticker />
       <About />
       <ProjectsGrid />
+      <Work />
       <SkillsSection />
       <Experience />
       <Achievements />
