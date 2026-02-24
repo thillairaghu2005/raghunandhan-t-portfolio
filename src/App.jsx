@@ -276,7 +276,7 @@ const SkillsSection = () => (
    EXPERIENCE
    ========================================================= */
 const experiences = [
-  { role: 'Intern, CODEBIND TECHNOLOGIES', period: '2023', detail: 'Gained hands-on experience in full-stack web development by contributing to real-time projects, building responsive user interfaces with HTML, CSS, and JavaScript, implementing server-side logic and database integration, managing deployments, and collaborating within professional development workflows.' },
+  { role: 'Intern, CODEBIND TECHNOLOGIES', period: '2024', detail: 'Gained hands-on experience in full-stack web development by contributing to real-time projects, building responsive user interfaces with HTML, CSS, and JavaScript, implementing server-side logic and database integration, managing deployments, and collaborating within professional development workflows.' },
   { role: 'Monolith Research and Training Labs Pvt. Ltd.', period: 'June 2025 - September 2025', detail: 'Gained hands-on experience in game development during an internship by contributing to real-time projects, implementing gameplay mechanics and interactive features in Unreal Engine 5 using Blueprints, and collaborating with team members to understand development pipelines, problem-solving strategies, and production workflows.' },
 ];
 
